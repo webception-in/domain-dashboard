@@ -1,11 +1,13 @@
 {
-  "name": "domain-manager1",
+  "name": "domain-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ping.js": "^0.2.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "axios": "^0.18.0",
+    "materialize-css": "^1.0.0",
+    "ping.js": "^0.2.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-scripts": "2.1.3"
   },
   "scripts": {
@@ -22,5 +24,23 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "![MIT License Badge](https://img.shields.io/github/license/webception-in/domain-manager.svg \"MIT License Badge\")",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webception-in/domain-dashboard.git"
+  },
+  "keywords": [
+    "domains",
+    "whois",
+    "react"
+  ],
+  "author": "Vishwas Navada K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webception-in/domain-dashboard/issues"
+  },
+  "homepage": "https://github.com/webception-in/domain-dashboard#readme"
 }
