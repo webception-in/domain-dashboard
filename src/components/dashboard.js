@@ -1,3 +1,4 @@
+// App Page
 import React, { Component } from "react";
 import axios from "axios";
 import Ping from "ping.js";
