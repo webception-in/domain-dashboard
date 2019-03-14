@@ -1,9 +1,9 @@
 {
   "workbench.colorCustomizations": {
-    "titleBar.activeForeground": "#000",
-    "titleBar.inactiveForeground": "#000000CC",
-    "titleBar.activeBackground": "#31e79b",
-    "titleBar.inactiveBackground": "#31e79b"
+    "titleBar.activeForeground": "#cdcbcb",
+    "titleBar.inactiveForeground": "#cdcbcb",
+    "titleBar.activeBackground": "#1c1a1a",
+    "titleBar.inactiveBackground": "#1c1a1a"
   },
   "git.ignoreLimitWarning": true,
   "editor.formatOnSave": true,
