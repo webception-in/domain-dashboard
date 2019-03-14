@@ -1,3 +1,4 @@
+// Routing goes in this
 import React from "react";
 import Dashboard from "./components/dashboard";
 
