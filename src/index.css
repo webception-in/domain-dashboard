@@ -1,4 +1,31 @@
+/* :root {
+  --font-color:
+} */
 body {
   margin: 0;
   padding: 0;
+  font-family: "Trebuchet MS";
+  font-size: 0.8em;
+}
+.domain-listing {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10px;
+  padding: 5px;
+  list-style: none;
+}
+.domain-card {
+  margin: 5px !important;
+  padding: 8px;
+  max-height: 60px;
+  background: #eee;
+  border: 1px solid #aaa;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 600px) {
+  .domain-listing {
+    grid-template-columns: 100%;
+  }
 }
