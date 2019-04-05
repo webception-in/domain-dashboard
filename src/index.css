@@ -1,11 +1,49 @@
-/* :root {
-  --font-color:
-} */
+:root {
+  --primary-font-color: #000;
+  --sec-font-color: #333;
+  --primary-bg-color: #fff;
+  --sec-bg-color: #eee;
+  --title-font-size: 5vh;
+  --primary-font-size: 3vh;
+  --sec-font-size: 2vh;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: "Trebuchet MS";
-  font-size: 0.8em;
+  font-size: var(--primary-font-size);
+}
+nav {
+  color: #fff;
+  background-color: #333 !important;
+}
+section {
+  min-height: 85vh;
+  text-align: center;
+  vertical-align: middle;
+}
+footer {
+  text-align: center;
+  font-size: var(--sec-font-size);
+}
+.main {
+  margin: 0 auto;
+  padding: 10px;
+}
+.main h1 {
+  font-size: var(--title-font-size);
+}
+.main p {
+  font-size: var(--primary-font-size);
+}
+.brand-logo {
+  padding: 2px 4px !important;
+}
+.add-domain-form {
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 320px;
+  text-align: center;
 }
 .domain-listing {
   display: grid;
@@ -17,8 +55,8 @@ body {
 .domain-card {
   margin: 5px !important;
   padding: 8px;
-  max-height: 60px;
-  background: #eee;
+  max-height: 80px;
+  background: var(--sec-bg-color);
   border: 1px solid #aaa;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -26,6 +64,6 @@ body {
 
 @media (max-width: 600px) {
   .domain-listing {
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
   }
 }
