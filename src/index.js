@@ -9,5 +9,4 @@ const routes = getRoutes();
 
 ReactDOM.render(routes, document.getElementById("root"));
 
-// ReactDOM.render(<Dashboard />, document.getElementById("root"));
-// serviceWorker.register();
+
