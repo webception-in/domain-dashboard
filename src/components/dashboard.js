@@ -5,7 +5,8 @@ import axios from "axios";
 import userDomains from "../sites.json";
 import { whoIs } from "../config.json";
 
-import UserDetails from "./UserDetails";
+import NavBar from "./NavBar";
+import AddDomain from "./AddDomain";
 import DomainCard from "./DomainCard";
 
 const Dashboard = () => {
@@ -60,7 +61,8 @@ const Dashboard = () => {
 
   return (
     <div>
-      <UserDetails />
+      <NavBar />
+      <AddDomain />
       <ul className="domain-listing">
         {domains.map(domain => {
           console.log("TCL: render -> domain", domain);
